@@ -1,0 +1,16 @@
+/* styles.css */
+#home-title,
+#recipe-ul {
+  text-align: center;
+  font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+
+/* center the ul, remove bullets */
+#recipe-ul{
+  font-size: 22px;
+  list-style-type: none;
+  /* Remove offset from missing bullets */
+  padding: 0;
+  margin: 0;
+}
+
