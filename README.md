@@ -31,12 +31,12 @@ The web development skills used to establish this basic website include:
     * Selector { property: value }
     * Selector Types:
         * Universal Selector $~~~~~~~~~~~$ * { property: val; }
-        * Type Selector $~~~~~~~~~~~$ div { property: val; }
-        * Class Selectors $~~~~~~~~~~~$ .div-one { property: val; }
-        * ID Selectors $~~~~~~~~~~~$ #div-one { property: val; }
-        * Grouping Selectors $~~~~~~~~~~~$ .read, .unread { property: val; }
-        * Chaining Selectors $~~~~~~~~~~~$ .read.unread {property: val; }
-        * Descendant Combinator $~~~~~~~~~~~$ .read .unread { property: val; }
+        * Type Selector $~~~~~~~~~~~~~~~~~$ div { property: val; }
+        * Class Selectors $~~~~~~~~~~~~~~$ .div-one { property: val; }
+        * ID Selectors $~~~~~~~~~~~~~~~~~~~$ #div-one { property: val; }
+        * Grouping Selectors $~~~~~~~~$ .read, .unread { property: val; }
+        * Chaining Selectors $~~~~~~~~$ .read.unread {property: val; }
+        * Descendant Combinator .read .unread { property: val; }
     * Common Properties:
         * [Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.php): [hex, rgb, hsl]
             * hex: #1100ff
