@@ -1,0 +1,23 @@
+/* styles.css for box-playground page */
+
+/* Set all elements to have no innate margin or padding + border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+.box-one {
+  background-color: blue;
+  padding: 20px;
+  border: 10px solid black;
+  margin: 10px 10px 50px 10px;
+}
+
+.box-two {
+  background-color: red;
+  padding: 20px;
+  border: 10px solid black;
+  margin: 10px 10px 10px 10px;
+}
+  

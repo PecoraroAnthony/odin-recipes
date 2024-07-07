@@ -1,4 +1,4 @@
-/* styles.css */
+/* styles.css for home and recipe pages */
 #home-title,
 #recipe-ul {
   text-align: center;
@@ -14,3 +14,7 @@
   margin: 0;
 }
 
+/* Uncomment to see box model around all elements */
+/* * {
+  outline: 2px solid red;
+} */
