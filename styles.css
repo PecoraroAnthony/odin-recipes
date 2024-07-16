@@ -1,4 +1,32 @@
 /* styles.css for home and recipe pages */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.title-div {
+  background-color: black;
+  width: 1000px;
+  height: auto;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: dotted 3px white;
+  margin: 0 auto;
+}
+
+.recipe-div {
+  background-color: paleturquoise;
+  width: 400px;
+  height: auto; /* adjust w/ more recipes */
+  padding: 20px;
+  margin: 10px auto; /* center */
+  border: solid 5px black;
+}
+
 #home-title,
 #recipe-ul {
   text-align: center;
@@ -13,6 +41,8 @@
   padding: 0;
   margin: 0;
 }
+
+
 
 /* Uncomment to see box model around all elements */
 /* * {
