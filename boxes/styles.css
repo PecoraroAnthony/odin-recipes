@@ -17,10 +17,6 @@ div {
   display: block;
 }
 
-ul {
-  list-style: none;
-}
-
 /* Resource 1 */
 .box-one {
   background-color: #EB5757;
@@ -75,8 +71,29 @@ ul {
   border: 30px solid black;
 }
 
-/* Resource 3 */
+/* Resource 3 (MDN Documentation) */
+/* Examples of Different Display Types */
+.r3p,
+.r3ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+  list-style: none;
+}
 
+.block,
+.r3li {
+  border: 2px solid blue;
+  padding: .5em;
+}
 
+.ul-flex {
+  list-style: none;
+  padding: 1em;
+  display: flex;
+}
+
+.block {
+  display: block;
+}
 
 /* Resource 4 */
