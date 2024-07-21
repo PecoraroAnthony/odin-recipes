@@ -18,13 +18,20 @@ body {
   margin: 0 auto;
 }
 
-.recipe-div {
+.flex-div {
+  display: flex;
+  /* center the flex content */
+  justify-content: center; 
+}
+
+.flex-div div {
   background-color: paleturquoise;
-  width: 400px;
+  width: auto;
   height: auto; /* adjust w/ more recipes */
   padding: 20px;
-  margin: 10px auto; /* center */
   border: solid 5px black;
+  /* base flex size = 333px */
+  flex: 0 0 333px;
 }
 
 #home-title,
@@ -42,7 +49,12 @@ body {
   margin: 0;
 }
 
-
+.title-img {
+  height: 75px;
+  width: auto;
+  text-align: center;
+  margin: 0 1em;
+}
 
 /* Uncomment to see box model around all elements */
 /* * {

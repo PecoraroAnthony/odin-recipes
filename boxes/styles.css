@@ -106,3 +106,6 @@ div {
   /* See: https://css-tricks.com/almanac/properties/m/margin/#aa-auto-and-centering */
   margin: 0 auto; /* In this case auto uses the available horizontal space to center the div */
 }
+
+/* Flex Playground */
+
