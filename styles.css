@@ -32,17 +32,17 @@ body {
 
 /* Split the columns evenly across */
 .column.second {
-  flex-basis: calc(100%/3);
+  flex-basis: 33.33%;
 }
 
 .column.third {
   background: #b4bac0;
-  flex-basis: calc(100%/3);
+  flex-basis: 33.33%;
 }
 
 .column.fourth {
   background-color: #6eeaec;
-  flex-basis: calc(100%/3);
+  flex-basis: 33.33%;
 }
 
 #home-title,
