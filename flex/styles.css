@@ -1,0 +1,55 @@
+/* Flex Playground */
+/* https://v2.scrimba.com/learn-flexbox-c0k/~01 */
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+
+html, body {
+    box-sizing: border-box;
+    background-color: #ffeead;
+    height: 100%;
+    padding: 10px;
+}
+
+/* targets the 1st child within the flex container */
+.container > div:nth-child(1) {
+background-color: #96ceb4;	
+}
+
+.container > div:nth-child(2) {
+background-color: #ff6f69;
+}
+
+.container > div:nth-child(3) {
+background-color: #88d8b0;
+}
+
+.container > div:nth-child(4) {
+    background-color: #ff6f69;
+}
+
+.container {
+border: 5px solid #ffcc5c;
+display: flex;
+height: 100%;
+/* changes axis direction (row default) */
+/* flex-direction: row; */
+
+/* shifts content - default flex-start (content squeezed on left side) */
+/* flex-start flex-end center space-around space-between space-evenly */
+/* justify-content: flex-end; */
+}
+
+/* pushes home item away from search and logout items */
+/* .home {
+    margin-right: auto;
+} */
+
+/* Adjust flex rate (growth) of individual flex items */
+/* .search {
+    flex: 2;
+} */

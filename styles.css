@@ -3,35 +3,46 @@
   box-sizing: border-box;
 }
 
+/* Page background lightgrey */
 body {
   background-color: lightgrey;
 }
 
-.title-div {
-  background-color: black;
-  width: 1000px;
-  height: auto;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  border: dotted 3px white;
+.flex-container {
+  width: 80%;
+  min-height: 300px;
+  /* center */
   margin: 0 auto;
-}
-
-.flex-div {
   display: flex;
-  /* center the flex content */
-  justify-content: center; 
+  /* wrap onto a new line */
+  flex-wrap: wrap;
+  border: double 10px black;
 }
 
-.flex-div div {
-  background-color: paleturquoise;
-  width: auto;
-  height: auto; /* adjust w/ more recipes */
-  padding: 20px;
-  border: solid 5px black;
-  /* base flex size = 333px */
-  flex: 0 0 333px;
+.flex-container .column {
+  padding: 10px;
+  background: #dbdfe5;
+}
+
+.column.first {
+  text-align: center;
+  background: blueviolet;
+  flex-basis: 100%;
+}
+
+/* Split the columns evenly across */
+.column.second {
+  flex-basis: calc(100%/3);
+}
+
+.column.third {
+  background: #b4bac0;
+  flex-basis: calc(100%/3);
+}
+
+.column.fourth {
+  background-color: #6eeaec;
+  flex-basis: calc(100%/3);
 }
 
 #home-title,
